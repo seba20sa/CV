@@ -1,0 +1,23 @@
+header {
+    padding: 1% 0% 1% 1%;
+    font-family: "Bitter","Noto Serif SC","Noto Serif JP";
+    font-size: 20px;
+    background-color: rgb(49, 118, 224);
+    color: #fff;
+}
+header h2 {
+    margin-left: 10px;
+}
+header ul {
+    margin-left: -30px;
+}
+header li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 2%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}

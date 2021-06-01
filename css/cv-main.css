@@ -1,0 +1,96 @@
+#divider {
+    display: flex;
+    list-style: none;
+}
+aside  {
+    padding: 1% 0% 1% 1%;
+    font-family: "Bitter","Noto Serif SC","Noto Serif JP";
+    width: 17%;
+    background-color: rgb(49, 118, 224);
+    color: #fff;
+    border-top: 1px solid rgb(234, 209, 241);
+}
+aside a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside li {
+    list-style: none;
+    margin-left: -30px;
+
+}
+aside>ul {
+    margin-bottom: 60px;
+}
+
+aside li ul>li{
+    
+    margin-left: -37px;
+
+}
+
+aside h2 {
+    margin-left: 10px;
+}
+
+.aside-title {
+    font-weight: bold;
+
+}
+
+
+.skill {
+    line-height: 30px;
+}
+main  {
+    margin-top: 10px;
+    font-family: "Bitter","Noto Serif SC","Noto Serif JP"; 
+    width: 55%;
+}
+main h2, main p, img{
+    margin-left: 20px;
+}
+main li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+main img {
+    height: 20%;
+    width: 20%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+#ocupation {
+    font-size: 25px;
+    font-weight: bold;
+}
+#description {
+    text-align: justify;
+}
+.divided-list {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(49, 118, 224); */
+}
+
+.company-name, .job-description {
+    width: 400px;
+    /* background-color: rgb(49, 118, 224); */
+    text-align: left;
+}
+.company-name {
+    font-weight: bold;
+}
+
+.detailed-info {
+    border-left: 3px solid rgb(234, 209, 241);
+}
+
+#experience_box, #description-box, #education_box {
+    border-bottom:3px solid rgb(234, 209, 241);
+    
+}
+
