@@ -8,34 +8,35 @@
         <link rel="stylesheet" type="text/css" href="css/cv-header.css">
         <link rel="stylesheet" type="text/css" href="css/cv-main.css">
         <link rel="stylesheet" type="text/css" href="css/cv-footer.css">
+        <script src="js/cvHeader.js" defer="defer"></script>
         <script src="js/cvMain.js" defer="defer"></script>
     </head>
     <body>
         <header>
-            <div id="first-section">
+            <div id="first_section">                
                 <h2>
                     Sebastian Sileoni
+                    
                 </h2>
+                <a href="" id="show_social"><i class="fas fa-angle-down"></i></a>
             </div>
-            <div id="hidden-nav-bar">
-                <ul>
-                    <li>
-                        <a href="https://github.com/seba20sa/" target="_blank">
-                            Git Hub
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sebastian-s-681579123/" target="_blank">
-                            Linkedin
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:seba20sa@gmail.com">
-                            E-mail
-                        </a>
-                    </li>
-                </ul>
+            <div class="hidden-nav-bar">
+                <p><a href="https://github.com/seba20sa/" target="_blank">Git Hub</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/sebastian-s-681579123/" target="_blank">
+                        Linkedin
+                    </a>
+                </p>
+                <p><a href="mailto:seba20sa@gmail.com">E-mail</a></p>
+                <p><a href="" id="hide_social"><i class="fas fa-angle-up"></i></a></p>
             </div>
+            <form action="">
+                <label for="cars">Select a language:</label>
+                    <select id="language">
+                        <option value="spa">Spanish</option>
+                        <option value="eng">English</option>
+                    </select>
+            </form>
         </header>
         <div id="divider">
             <aside>
@@ -260,13 +261,23 @@
                     </ul>
                 </div>
             </main>
-
         </div>
-
-            
-
         <footer>
-            
+            <span>
+                <a href="https://github.com/seba20sa/">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/sebastian-s-681579123/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+            <span>
+                <a href="mailto:seba20sa@gmail.com">
+                    <i class="fas fa-envelope-square"></i>
+                </a>
+            </span>
         </footer>
     </body>    
 </html>

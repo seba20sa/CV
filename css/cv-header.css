@@ -1,23 +1,54 @@
+
+
 header {
-    padding: 1% 0% 1% 1%;
+    padding: 0% 0% 1% 1%;
     font-family: "Bitter","Noto Serif SC","Noto Serif JP";
-    font-size: 20px;
     background-color: rgb(49, 118, 224);
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
-header h2 {
-    margin-left: 10px;
-}
-header ul {
-    margin-left: -30px;
-}
-header li {
-    display: inline-block;
-    list-style: none;
-    padding-right: 2%;
-}
-
 header a {
     color: #fff;
     text-decoration: none;
 }
+/* Mobile first */
+
+.hidden-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+
+}
+
+
+#first_section {
+    margin: 0% 2%;
+    display: flex;
+    align-items: center;
+}
+#first_section h2 {
+    flex: 11 1 0px;
+}
+#first_section a {
+    flex: 1 1 0px;
+}
+
+form {
+    margin: 0% 0% 2% 2%;
+
+}
+
+/* from tablet to desktop */
+@media only screen and (min-width: 480px) { 
+    header {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
