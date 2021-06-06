@@ -2,6 +2,11 @@ aside, main {
     font-family: "Bitter","Noto Serif SC","Noto Serif JP";
     margin:0% 1% 0% 2%;
 }
+.skill {
+    color: rgb(49, 118, 224);
+    font-weight: bold;
+
+}
 aside, .section-main {
     border-bottom: solid 1px rgb(49, 118, 224);
 }
@@ -31,6 +36,7 @@ main {
 img {
     width: 300px;
     border-radius: 2%;
+    margin-bottom: 2%;
 }
 .edu-school, .exp-company, .exp-job, .edu-degree {
     font-weight: bold;

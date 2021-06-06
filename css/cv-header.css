@@ -14,8 +14,8 @@ header a {
 }
 /* Mobile first */
 
-.hidden-nav-bar {
-    display: flex;
+#hidden_nav_bar {
+    display: none;
     justify-content: space-between;
     margin: 0% 2%;
 
