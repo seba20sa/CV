@@ -1,11 +1,11 @@
 footer {
     background-color: rgb(11, 76, 173);
-    padding: 2% 0%;
+    padding: 3% 0%;
     display: flex;
     justify-content: space-around;
 }
 
 footer i, footer a {
     color: #fff;
-    font-size: larger;
+    font-size: 40px;
 }
