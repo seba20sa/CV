@@ -2,18 +2,38 @@ aside, main {
     font-family: "Bitter","Noto Serif SC","Noto Serif JP";
     margin:0% 1% 0% 2%;
 }
+aside, .section-main {
+    border-bottom: solid 1px rgb(49, 118, 224);
+}
 aside a {
     text-decoration: none;
+    
+}
+.experience-box, .education-box {
+    margin-bottom:30px;
+    border-bottom: dotted 1px rgb(49, 118, 224);
+
+}
+.experience-box:last-child, .education-box:last-child {
+    border-bottom: 1px
 }
 
 /* Mobile first */
+main {
+    display:flex;
+    flex-direction: column;
+}
 #description, .aditional-info {
     text-align: justify;
+    line-height: 25px;
 }
 
 img {
     width: 300px;
     border-radius: 2%;
+}
+.edu-school, .exp-company, .exp-job, .edu-degree {
+    font-weight: bold;
 }
 
 
