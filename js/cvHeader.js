@@ -18,7 +18,7 @@ showNavBar.addEventListener('click', showBar);
 /*METHODS*/
 function hideBar(e) {
     hiddenNavBar.style.display = 'none';
-    showNavBar.style.display = 'block';
+    showNavBar.style.display = 'inline';
     
     
     e.preventDefault();
