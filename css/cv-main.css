@@ -1,5 +1,7 @@
 /* Mobile first */
-
+body {
+    width: 100%;
+}
 
 
 /* #divider {
