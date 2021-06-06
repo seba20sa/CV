@@ -9,9 +9,10 @@ aside a {
 }
 
 /* Mobile first */
+
 img {
-    width:50%;
-    
+    width: 300px;
+
     border-radius: 2%;
 }
 
