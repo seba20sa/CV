@@ -1,18 +1,18 @@
 aside, main {
     font-family: "Bitter","Noto Serif SC","Noto Serif JP";
     margin:0% 1% 0% 2%;
-    
-
 }
 aside a {
     text-decoration: none;
 }
 
 /* Mobile first */
+#description, .aditional-info {
+    text-align: justify;
+}
 
 img {
     width: 300px;
-
     border-radius: 2%;
 }
 
