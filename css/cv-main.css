@@ -10,6 +10,9 @@ aside, main {
 aside, .section-main {
     border-bottom: solid 1px rgb(49, 118, 224);
 }
+.section-main:last-child {
+    border-bottom:  1px ;
+}
 aside a {
     text-decoration: none;
     
@@ -43,5 +46,52 @@ img {
 }
 
 
-/* from tablet to desktop */
-@media only screen and (min-width: 480px) { }
+/* tablet TWO colums */
+@media only screen and (min-width: 480px) { 
+    #divider {
+        display: flex;
+        flex-direction: row;
+    }
+    aside {
+        background-color: rgb(49, 118, 224);
+        flex: 1 1 0px;
+        padding-left: 2%;
+        margin-left: -2%;
+        border-top: solid 1px #fff; 
+        border-bottom: solid 1px #fff;        
+    }
+    aside p, aside h2, aside h3, .skill{
+        color: #fff;
+        margin-left: 8%;
+    }
+    aside a {
+        color: #fff;
+        margin-left: 2%;
+    }
+    main {
+        flex: 3 1 0px; 
+    }
+    .info-box {
+        border-bottom: dotted 1px #fff;
+        padding: 30px 0px;
+    }
+    .info-box:last-child { 
+        border-bottom:  1px ;
+    }
+}
+/* Desktop from 768 or more */
+@media only screen and (min-width: 768px) {
+    .experience-box, .education-box {
+        display:flex;
+        flex-direction: row;
+    }
+    .left-sector {
+        flex: 1 1 0px
+    }
+
+    .right-sector {
+        flex: 1 1 0px;
+        border-left: dotted 1px rgb(49, 118, 224);
+        padding-left: 3%;
+    }
+ }

@@ -2,19 +2,9 @@
 var hideNavBar = document.getElementById('hide_social');
 var showNavBar = document.getElementById('show_social');
 var hiddenNavBar = document.getElementById('hidden_nav_bar');
-
-
-
-
 /*LISTENERS*/
 hideNavBar.addEventListener('click', hideBar);
 showNavBar.addEventListener('click', showBar);
-
-
-
-
-
-
 /*METHODS*/
 function hideBar(e) {
     hiddenNavBar.style.display = 'none';
@@ -31,4 +21,5 @@ function showBar(e) {
     showNavBar.style.display = 'none';
     e.preventDefault();
 } 
+
 
