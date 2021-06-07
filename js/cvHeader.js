@@ -9,15 +9,12 @@ showNavBar.addEventListener('click', showBar);
 function hideBar(e) {
     hiddenNavBar.style.display = 'none';
     showNavBar.style.display = 'inline';
-    
-    
     e.preventDefault();
 }
 function showBar(e) {
     hiddenNavBar.style.display = 'flex';
     hiddenNavBar.style.justifyContent = 'space-between';
     hiddenNavBar.style.margin = '0% 2%';
-    
     showNavBar.style.display = 'none';
     e.preventDefault();
 } 
